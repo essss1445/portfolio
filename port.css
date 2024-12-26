@@ -1,0 +1,233 @@
+.body {
+  margin: auto;
+  background-color: antiquewhite;
+  background-image: url(backgroun\ texure.png);
+  background-size: contain;
+}
+
+#navbar {
+  height: auto;
+  width: 100%;
+  position: sticky;
+  background-size: cover;
+  background-position: left;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -25px;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: -11%;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 1%, transparent, transparent, transparent, transparent);
+}
+
+.overlay0 {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background: linear-gradient(to top, rgb(251, 235, 216) 1%, transparent, transparent, transparent, transparent, transparent, transparent, transparent);
+}
+
+#page {
+  position: absolute;
+  top: 90vw;
+  left: 68vw;
+  font-size: 3vw;
+  font-family: 'Sunday Sport', sans-serif;
+  background-color: #000000;
+  color: wheat;
+  border-radius: 1vw;
+  
+}
+
+#text0 {
+  font-size: 4vw;
+  font-family: 'Sunday Sport', sans-serif;
+  color: black;
+  position: absolute;
+  padding-top: 5%;
+  z-index: 2;
+}
+
+#text01 {
+  font-size: 2.5vw;
+  font-family: 'Sunday Sport', sans-serif;
+  color: black;
+  position: absolute;
+  padding-top: 15%;
+  z-index: 2;
+  left: 5%;
+  max-width: 90%;
+}
+
+#text1 {
+  font-size: 2.3vw;
+  font-family: 'Sunday Sport', sans-serif;
+  text-align: justify;
+  color: black;
+  position: absolute;
+  left: 63%;
+  z-index: 2;
+  max-width: 33%;
+}
+
+#text2 {
+  font-size: 2.3vw;
+  font-family: 'Sunday Sport', sans-serif;
+  text-align: justify;
+  color: black;
+  position: absolute;
+  left: 4%;
+  padding-top: 20%;
+  z-index: 2;
+  max-width: 35%;
+}
+
+#text3 {
+  font-size: 2.3vw;
+  font-family: 'Sunday Sport', sans-serif;
+  text-align: justify;
+  color: black;
+  position: absolute;
+  left: 63%;
+  padding-top: 40%;
+  z-index: 2;
+  max-width: 33%;
+}
+
+#text4 {
+  font-size: 2.3vw;
+  font-family: 'Sunday Sport', sans-serif;
+  text-align: justify;
+  color: black;
+  position: absolute;
+  left: 4%;
+  padding-top: 50%;
+  z-index: 2;
+  max-width: 35%;
+}
+
+#footer {
+  background-image:
+    /*linear-gradient(to bottom, rgb(251, 235, 216), transparent, transparent,transparent),*/
+    url(header.png);
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 4vw;
+  height: 2vw;
+}
+
+#zombieCar {
+  border-radius: 2.5% / 4%;
+  box-shadow: 0px 0px 8px #000000;
+  height: 23vw;
+  left: 5vw;
+  top: 5vw;
+  width: 50%;
+  position: relative;
+  /*background: url('zombies\ car.png');*/
+  background-size: cover;
+}
+
+#zombieBomb {
+  border-radius: 2.5% / 4%;
+  box-shadow: 0px 0px 8px #000000;
+  height: 24.5vw;
+  width: 50%;
+  top: 28vw;
+  left: 45vw;
+  position: relative;
+  /*background: url('bomb\ zombie.png');*/
+  background-size: cover;
+}
+
+#zombieKaren {
+  border-radius: 2.5% / 4%;
+  box-shadow: 0px 0px 8px #000000;
+  height: 24.5vw;
+  width: 50%;
+  position: relative;
+  left: 5vw;
+  top: 43vw;
+  /*background: url('zombies\ Karen.png');*/
+  background-size: cover;
+  margin-top: 40px;
+}
+
+#zombieWondring {
+  border-radius: 2.5% / 4%;
+  box-shadow: 0px 0px 8px #000000;
+  height: 24.5vw;
+  width: 50%;
+  top: 55vw;
+  left: 45vw;
+  position: relative;
+  /*background: url('zombies\ wondering.png');*/
+  background-size: cover;
+  margin-top: 40px;
+}
+
+/*.ss {
+  font-size: 20px;
+  font-style: italic;
+  background: linear-gradient(white, gray, white);
+  position: sticky;
+  top: 0px;
+  margin: -8px;
+}
+
+.menu {
+  padding: 0px;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+a span {
+  float: right;
+  padding: 4px;
+  padding-top: 40px;
+  border-left: 1px solid gray;
+  min-width: 50px;
+  color: khaki;
+  text-align: center;
+  z-index: 0;
+  top: 0px;
+}
+
+a:link {
+  color: white;
+}
+
+a span:hover {
+  background: linear-gradient(#4E4F58, #AAAEDB00);
+}
+
+a span:active {
+  color: dimgrey;
+  background: linear-gradient(black, #AAAEDB00);
+}*/
